@@ -3,9 +3,7 @@
 	"package": "cc.unilock.ae2mixin.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-    "client.CraftingTermScreenMixin",
-    "client.MEStorageScreenMixin",
-    "client.PatternEncodingTermScreenMixin"
+    "client.MEStorageScreenMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
