@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "cc.unilock.ae2mixin.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+    "client.CraftingTermScreenMixin",
+    "client.MEStorageScreenMixin",
+    "client.PatternEncodingTermScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
