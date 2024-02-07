@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "cc.unilock.ae2mtfix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "cc.unilock.ae2mtfix.MixinPlugin",
+  "mixins": [],
+  "client": [
+    "client.ae2_compat.MEStorageScreenMixin",
+    "client.ae2wtlib_compat.WTScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

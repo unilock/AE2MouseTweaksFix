@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "ae2mixin",
+	"id": "ae2mtfix",
 	"version": "${version}",
 	"name": "AE2 + Mouse Tweaks Fix",
 	"description": "Disables Mouse Tweaks' \"WheelTweak\" in AE2 terminals",
@@ -8,12 +8,13 @@
 		"unilock"
 	],
 	"contact": {
-		"sources": "https://github.com/unilock/AE2Mixin"
+		"sources": "https://github.com/unilock/AE2MouseTweaksFix",
+		"issues": "https://github.com/unilock/AE2MouseTweaksFix/issues"
 	},
 	"license": "MIT",
 	"environment": "client",
 	"mixins": [
-		"ae2mixin.mixins.json"
+		"ae2mtfix.mixins.json"
 	],
 	"depends": {
 		"fabricloader": "*",
